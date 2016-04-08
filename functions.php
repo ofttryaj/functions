@@ -35,7 +35,7 @@ function multiArrUnique($array)
     {
         if ( is_array($value) )
         {
-            $result[$key] = self::multiArrUnique($value);
+            $result[$key] = multiArrUnique($value);
         }
     }
 
