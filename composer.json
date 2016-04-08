@@ -1,0 +1,24 @@
+{
+    "name":         "ofttryaj/functions",
+    "description":  "PHP Commonly used function ",
+    "keywords": [
+        "functions"
+    ],
+    "license":      "MIT",
+    "type":         "library",
+    "authors": [
+        {
+            "name":     "wanggang",
+            "email":    "ofttryaj@163.com,772082500@qq.com",
+            "homepage": "https://github.com/ofttryaj"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.5.0"
+    },
+
+    "autoload": {
+        "files": ["functions.php"]
+    }
+}
